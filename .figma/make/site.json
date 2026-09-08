@@ -1,0 +1,10 @@
+{
+  "description": "Interactive hero section with six segmented images that expand on hover, enhancing user engagement and visual storytelling on websites.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

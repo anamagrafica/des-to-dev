@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400&display=swap');
+@import 'tailwindcss';
+
+html,
+body {
+  height: 100%;
+}
+
+.hidden-mobile { display: flex; }
+.show-mobile   { display: none; }
+
+@media (max-width: 1024px) {
+  .hidden-mobile { display: none !important; }
+  .show-mobile   { display: block !important; }
+}
+
+#root {
+  min-height: 100%;
+}
